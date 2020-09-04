@@ -1,0 +1,59 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "DOB",
+        "horoscope_sign",
+        "subscribe"
+      ]
+    },
+    "action_get_horoscope_sign": {
+      "slots": [
+        "horoscope_sign"
+      ]
+    },
+    "action_get_todays_horoscope": {
+      "slots": [
+        "horoscope_sign"
+      ]
+    },
+    "action_subscribe_user": {
+      "slots": [
+        "subscribe"
+      ]
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "utter_subscribe": {
+      "slots": []
+    },
+    "utter_ask_horoscope_sign": {
+      "slots": [
+        "MM",
+        "DOB",
+        "DD"
+      ]
+    },
+    "utter_ask_dob": {
+      "slots": [
+        "MM",
+        "DOB",
+        "DD"
+      ]
+    }
+  },
+  "rasa_core": "0.11.0",
+  "python": "3.6.1",
+  "max_histories": [
+    null,
+    2,
+    2
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}
