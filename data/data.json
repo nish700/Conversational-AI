@@ -1,0 +1,1003 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "I want to know my horoscope",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "Can you please tell me my horoscope",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Please subscribe me",
+        "intent": "subscription",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "True",
+            "entity": "subscribe"
+          }
+        ]
+      },
+      {
+        "text": "hello horoscopebot",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "hello bot",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "hi there",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "bonjour",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "tell me my horoscope please",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "can u tell me my horoscope",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "What's today's horoscope",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "I would like to know my horoscope for today",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "12-12",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "12",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "12",
+            "entity": "MM"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "12-12",
+            "entity": "DOB"
+          }
+        ]
+      },
+      {
+        "text": "08-01",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "08",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "01",
+            "entity": "MM"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "08-01",
+            "entity": "DOB"
+          }
+        ]
+      },
+      {
+        "text": "01-01",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "01",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "01",
+            "entity": "MM"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "01-01",
+            "entity": "DOB"
+          }
+        ]
+      },
+      {
+        "text": "15-08",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "15",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "08",
+            "entity": "MM"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "15-08",
+            "entity": "DOB"
+          }
+        ]
+      },
+      {
+        "text": "19-01",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "19",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "01",
+            "entity": "MM"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "19-01",
+            "entity": "DOB"
+          }
+        ]
+      },
+      {
+        "text": "28-02",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "28",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "02",
+            "entity": "MM"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "28-02",
+            "entity": "DOB"
+          }
+        ]
+      },
+      {
+        "text": "please subscribe me ",
+        "intent": "subscription",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "True",
+            "entity": "subscribe"
+          }
+        ]
+      },
+      {
+        "text": "add me to mailing list",
+        "intent": "subscription",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "True",
+            "entity": "subscribe"
+          },
+          {
+            "start": 0,
+            "end": 17,
+            "value": "True",
+            "entity": "subscribe"
+          }
+        ]
+      },
+      {
+        "text": "yes subscribe",
+        "intent": "subscription",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "True",
+            "entity": "subscribe"
+          },
+          {
+            "start": 0,
+            "end": 13,
+            "value": "True",
+            "entity": "subscribe"
+          }
+        ]
+      },
+      {
+        "text": "subscribe",
+        "intent": "subscription",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "True",
+            "entity": "subscribe"
+          }
+        ]
+      },
+      {
+        "text": "subscribe me horoscopebot",
+        "intent": "subscription",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "True",
+            "entity": "subscribe"
+          }
+        ]
+      },
+      {
+        "text": "subscribe me please",
+        "intent": "subscription",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "True",
+            "entity": "subscribe"
+          }
+        ]
+      },
+      {
+        "text": "what is the horoscope for Capricorn?",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "Capricorn",
+            "entity": "horoscope_sign"
+          }
+        ]
+      },
+      {
+        "text": "tell me the horoscope for Gemini?",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "Gemini",
+            "entity": "horoscope_sign"
+          }
+        ]
+      },
+      {
+        "text": "horoscope for Aries?",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Aries",
+            "entity": "horoscope_sign"
+          }
+        ]
+      },
+      {
+        "text": "Leo's today's horoscope",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Leo's ",
+            "entity": "horoscope_sign"
+          }
+        ]
+      },
+      {
+        "text": "what's the horoscope for sagittarius?",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 25,
+            "end": 36,
+            "value": "sagittarius",
+            "entity": "horoscope_sign"
+          }
+        ]
+      },
+      {
+        "text": "what's the horoscope for Scorpio today?",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "Scorpio ",
+            "entity": "horoscope_sign"
+          }
+        ]
+      },
+      {
+        "text": "What's the horoscope for Aquarius?",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "Aquarius",
+            "entity": "horoscope_sign"
+          }
+        ]
+      },
+      {
+        "text": "unsubscribe me",
+        "intent": "subscription",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "False",
+            "entity": "subscribe"
+          }
+        ]
+      },
+      {
+        "text": "unsubscribe",
+        "intent": "subscription",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "True",
+            "entity": "subscribe"
+          }
+        ]
+      },
+      {
+        "text": "scorpio",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "scorpio",
+            "entity": "horoscope_sign"
+          }
+        ]
+      },
+      {
+        "text": "aquarius",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "aquarius",
+            "entity": "horoscope_sign"
+          }
+        ]
+      },
+      {
+        "text": "aries",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "aries",
+            "entity": "horoscope_sign"
+          }
+        ]
+      },
+      {
+        "text": "my horoscope sign in scorpio",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "scorpio",
+            "entity": "horoscope_sign"
+          }
+        ]
+      },
+      {
+        "text": "sagittarius",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "sagittarius",
+            "entity": "horoscope_sign"
+          }
+        ]
+      },
+      {
+        "text": "what is today's horoscope",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "Virgo is my horoscope sign",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Virgo ",
+            "entity": "horoscope_sign"
+          }
+        ]
+      },
+      {
+        "text": "Hi there!",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "my DOB is 07-12-1984",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "07-12",
+            "entity": "DOB"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "07",
+            "entity": "DD"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "12",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "my date of birth is 07-05",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "07-05",
+            "entity": "DOB"
+          },
+          {
+            "start": 20,
+            "end": 22,
+            "value": "07",
+            "entity": "DD"
+          },
+          {
+            "start": 23,
+            "end": 25,
+            "value": "05",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "hey",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "no do not subscribe",
+        "intent": "subscription",
+        "entities": [
+          {
+            "start": 3,
+            "end": 19,
+            "value": "False",
+            "entity": "subscribe"
+          }
+        ]
+      },
+      {
+        "text": "thanks..bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Please subscribe me",
+        "intent": "subscription",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "True",
+            "entity": "subscribe"
+          }
+        ]
+      },
+      {
+        "text": "I want to subscribe to daily updates",
+        "intent": "subscription",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "True",
+            "entity": "subscribe"
+          }
+        ]
+      },
+      {
+        "text": "Yes subscribe me",
+        "intent": "subscription",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "value": "True",
+            "entity": "subscribe"
+          }
+        ]
+      },
+      {
+        "text": "12-7",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "12-7",
+            "entity": "DOB"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "12",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 4,
+            "value": "7",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "my birthday is 25-2",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "25-2",
+            "entity": "DOB"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "25",
+            "entity": "DD"
+          },
+          {
+            "start": 18,
+            "end": 19,
+            "value": "2",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "my birth date is 12-12",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "12-12",
+            "entity": "DOB"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "12",
+            "entity": "DD"
+          },
+          {
+            "start": 20,
+            "end": 22,
+            "value": "12",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "my birthday: 30-01",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "30-01",
+            "entity": "DOB"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "30",
+            "entity": "DD"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "01",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "01-01",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "01-01",
+            "entity": "DOB"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "01",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "01",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "02-02",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "02-02",
+            "entity": "DOB"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "02",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "02",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "03-03",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "03-03",
+            "entity": "DOB"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "03",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "03",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "04-04",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "04-04",
+            "entity": "DOB"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "04",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "04",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "05-05",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "05-05",
+            "entity": "DOB"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "05",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "05",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "06-06",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "06-06",
+            "entity": "DOB"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "06",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "06",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "07-07",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "07-07",
+            "entity": "DOB"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "07",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "07",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "08-08",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "08-08",
+            "entity": "DOB"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "08",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "08",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "09-09",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "09-09",
+            "entity": "DOB"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "09",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "09",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "15-10",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "15-10",
+            "entity": "DOB"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "15",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "10",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "20-11",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "20-11",
+            "entity": "DOB"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "20",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "11",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "30-12",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "30-12",
+            "entity": "DOB"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "30",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "12",
+            "entity": "MM"
+          }
+        ]
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
