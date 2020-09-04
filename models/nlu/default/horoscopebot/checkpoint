@@ -1,2 +1,0 @@
-model_checkpoint_path: "C:/python3.6_64/chatbot/horoscopeBot/models/nlu\\default\\horoscopebot\\intent_classifier_tensorflow_embedding.ckpt"
-all_model_checkpoint_paths: "C:/python3.6_64/chatbot/horoscopeBot/models/nlu\\default\\horoscopebot\\intent_classifier_tensorflow_embedding.ckpt"
